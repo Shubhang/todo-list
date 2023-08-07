@@ -15,19 +15,6 @@ addTask.addEventListener('click', () => {
         inputTask.value = '';
     }
 });
-addTask.addEventListener('click', () => {
-    if (taskList.children.length < 10 && inputTask.value.trim() !== '') {
-        const newTask = document.createElement('li');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        newTask.appendChild(checkbox);
-        const taskText = document.createElement('span');
-        taskText.textContent = inputTask.value.trim();
-        newTask.appendChild(taskText);
-        taskList.appendChild(newTask);
-        inputTask.value = '';
-    }
-});
 
 exportImage.addEventListener('click', () => {
     const ctx = canvas.getContext('2d');

@@ -60,15 +60,18 @@ ul {
 
 li {
     display: flex;
-    align-items: center;
+    align-items: left;
     margin-bottom: 5px;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
     position: relative;
 }
 
 input[type="checkbox"] {
-    margin-right: 10px;
-    position: absolute;
-    right: 20px;
+    margin-left: 5px;
+}
+
+li span {
+    padding-left: 40px;
+    display: block;
 }

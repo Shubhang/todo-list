@@ -64,11 +64,10 @@ li {
     margin-bottom: 5px;
     width: 100%;
     justify-content: center;
-    position: relative;
 }
 
 input[type="checkbox"] {
     margin-right: 10px;
     position: absolute;
-    right: 20px;
+    left: 20px;
 }

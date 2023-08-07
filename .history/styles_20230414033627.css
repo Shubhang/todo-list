@@ -68,7 +68,10 @@ li {
 }
 
 input[type="checkbox"] {
-    margin-right: 10px;
-    position: absolute;
-    right: 20px;
+    margin-left: 10px;
+}
+
+li span {
+    padding-left: 40px;
+    display: block;
 }
